@@ -1,0 +1,19 @@
+{
+  "name": "frontend-pro-javs",
+  "version": "1.0.0",
+  "description": "Proyecto del módulo de Frontend PRO del Bootcamp de Web de KeepCoding.",
+  "main": "index.js",
+  "dependencies": {
+    "daemon": "^1.1.0",
+    "init": "^0.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
