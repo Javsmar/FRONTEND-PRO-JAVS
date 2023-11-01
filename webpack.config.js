@@ -1,7 +1,8 @@
 module.exports = {
     entry: {
-        index: './src/index.js',
-        app: './src/app.js'
+        home: './src/homePage.js',
+        teams: './src/teamsPage.js',
+        contact: './src/contactPage.js'
     },
     mode: 'development',
     devtool: 'inline-source-map',
