@@ -87,3 +87,11 @@ Esto iniciará un servidor web en un puerto predeterminado (generalmente el puer
 
 La instalación global de http-server es útil cuando necesitas servir archivos estáticos rápidamente durante el desarrollo web o para realizar pruebas locales en tu computadora.
 ```
+
+```
+El comando npm i -D webpack-dev-server se utiliza para instalar el paquete webpack-dev-server como una dependencia de desarrollo en tu proyecto Node.js. El webpack-dev-server es una herramienta que proporciona un servidor de desarrollo en tiempo real que facilita la implementación y prueba de tus aplicaciones web durante el desarrollo.
+
+Al instalarlo como una dependencia de desarrollo (usando -D o --save-dev), el paquete webpack-dev-server se agregará al archivo package.json en la sección de "devDependencies." Esto significa que solo estará disponible para su uso durante el desarrollo y no se incluirá en la versión de producción de tu aplicación.
+
+Una vez instalado, puedes configurar y utilizar el webpack-dev-server para servir tu aplicación y permitir recargas automáticas cuando se realizan cambios en los archivos fuente. Para ejecutar el servidor de desarrollo, generalmente usarás el comando webpack serve o webpack-dev-server en tu script de inicio definido en el archivo package.json, o ejecutarás npx webpack serve si no lo has configurado como un comando personalizado.
+```
