@@ -71,3 +71,19 @@ Una vez que ejecutes el comando npm i -D css-loader style-loader, estos paquetes
 Para desinstalar los paquetes css-loader y style-loader de tu proyecto Node.js que utiliza npm como administrador de paquetes,
 npm uninstall css-loader style-loader
 ```
+
+```
+npm i -D html-webpack-plugin se utiliza para instalar el paquete html-webpack-plugin como una dependencia de desarrollo en un proyecto de Node.js.
+
+El paquete html-webpack-plugin es una extensión para Webpack, una popular herramienta de empaquetado para aplicaciones web. Permite simplificar la generación de archivos HTML que incluyen automáticamente referencias a los archivos JavaScript generados por Webpack.
+```
+
+```
+El comando npm i -g http-server se utiliza para instalar globalmente la herramienta http-server a través de npm. http-server es un servidor web simple que se utiliza para servir archivos estáticos, como páginas HTML, CSS, JavaScript y otros recursos, desde un directorio local en tu computadora.
+
+Después de la instalación, puedes iniciar un servidor web local ejecutando el comando http-server en el directorio desde el que deseas servir archivos por ejemplo http-server dist/
+
+Esto iniciará un servidor web en un puerto predeterminado (generalmente el puerto 8080) y te proporcionará una URL local para acceder a los archivos en tu directorio.
+
+La instalación global de http-server es útil cuando necesitas servir archivos estáticos rápidamente durante el desarrollo web o para realizar pruebas locales en tu computadora.
+```

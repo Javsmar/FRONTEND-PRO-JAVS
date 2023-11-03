@@ -1,2 +1,3 @@
 import './home';
-import './css/home.css'
+import './css/home.css';
+console.log('Desde home');
