@@ -42,6 +42,10 @@ module.exports = {
                     // En este caso, se configura como 'asset/resource', lo que significa que los archivos
                     // se tratarán como recursos y se emitirán a la carpeta de salida sin procesamiento.
                     type: 'asset/resource'
+                },
+                {
+                    test: /\.s[ac]ss$/i,
+                    use: ['style-loader', 'css-loader', 'sass-loader'],
                 }
             ]
     },

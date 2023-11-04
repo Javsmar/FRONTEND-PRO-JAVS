@@ -95,3 +95,11 @@ Al instalarlo como una dependencia de desarrollo (usando -D o --save-dev), el pa
 
 Una vez instalado, puedes configurar y utilizar el webpack-dev-server para servir tu aplicación y permitir recargas automáticas cuando se realizan cambios en los archivos fuente. Para ejecutar el servidor de desarrollo, generalmente usarás el comando webpack serve o webpack-dev-server en tu script de inicio definido en el archivo package.json, o ejecutarás npx webpack serve si no lo has configurado como un comando personalizado.
 ```
+
+```
+El comando npm i -D sass sass-loader se utiliza para instalar dos paquetes relacionados con el preprocesador de CSS Sass en un proyecto Node.js. Aquí está qué hacen estos paquetes:
+
+sass: Este es el paquete que instala el compilador de Sass en tu proyecto. Sass es un preprocesador de CSS que extiende las capacidades de CSS estándar al permitirte usar variables, anidamiento de reglas, mixins y más. El paquete sass es necesario para compilar archivos Sass en archivos CSS estándar que los navegadores pueden entender.
+
+sass-loader: Este paquete es un "loader" para Webpack, que te permite cargar y compilar archivos Sass en tu proyecto. Webpack es una herramienta de empaquetado de módulos que se utiliza comúnmente en el desarrollo web. El sass-loader te permite integrar Sass en tu flujo de trabajo de desarrollo con Webpack.
+```
