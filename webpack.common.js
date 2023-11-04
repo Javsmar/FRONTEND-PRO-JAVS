@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-
 module.exports = {
     // Configuración de múltiples puntos de entrada (entry points)
     entry: {
@@ -9,17 +8,17 @@ module.exports = {
         teams: './src/teamsPage.js',    // Punto de entrada para la página de equipos
         contact: './src/contactPage.js',// Punto de entrada para la página de contacto
         error: './src/notFoundPage.js'
-        
-
     },
-    mode: 'development', // Modo de (development o production)
-    devtool: 'inline-source-map',// Configuración del mapa de fuente inline para depuración
-    // Configuración de la salida de los archivos generados
     output: {
-        filename: '[name].[chunkhash].bundle.js',     // Nombre del archivo de salida (será reemplazado por los nombres en entry)
-        path: path.resolve(__dirname, 'dist'),        // Directorio de salida para los archivos generados
-        clean: true                        // Limpieza del directorio de salida antes de la construcción
+        filename: '[name].[chunkhash].bundle.js',   // Nombre del archivo de salida (será reemplazado por los nombres en entry)
+        path: path.resolve(__dirname, 'dist'),     // Directorio de salida para los archivos generados
     },
+    // devServer: {
+    //     hot: true, // Habilita la recarga en caliente (Hot Module Replacement)
+    //     devMiddleware: {
+    //         writeToDisck: true,
+    //     }
+    // },
     // Configuración de reglas para procesar archivos CSS
     module: {
         rules:
