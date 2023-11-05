@@ -24,10 +24,6 @@ module.exports = {
         rules:
             [
                 {
-                    test: /\.css$/i,            // Coincide con archivos .css
-                    use: ['style-loader', 'css-loader'], // Usa style-loader y css-loader para procesar los archivos .css
-                },
-                {
                     test: /\.ts?$/,
                     use: 'ts-loader',
                     exclude: /node_modules/,

@@ -103,3 +103,12 @@ sass: Este es el paquete que instala el compilador de Sass en tu proyecto. Sass 
 
 sass-loader: Este paquete es un "loader" para Webpack, que te permite cargar y compilar archivos Sass en tu proyecto. Webpack es una herramienta de empaquetado de módulos que se utiliza comúnmente en el desarrollo web. El sass-loader te permite integrar Sass en tu flujo de trabajo de desarrollo con Webpack.
 ```
+
+```
+El paquete mini-css-extract-plugin es una extensión de Webpack que se utiliza para extraer archivos CSS en bundles separados durante la compilación. Esto es especialmente útil para proyectos en los que deseas cargar archivos CSS de forma asincrónica o separar el CSS del JavaScript para una mejor optimización y rendimiento.
+```
+
+```
+npm install --save-dev css-minimizer-webpack-plugin
+El paquete css-minimizer-webpack-plugin es una herramienta útil para minimizar y comprimir archivos CSS en tu proyecto de Webpack. Esto puede ayudar a reducir el tamaño de los archivos CSS y, por lo tanto, mejorar el rendimiento de tu aplicación web al reducir los tiempos de carga de la página.
+```
