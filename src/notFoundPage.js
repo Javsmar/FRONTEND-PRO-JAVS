@@ -1,1 +1,1 @@
-import './styles/404.scss';
+import './styles/404.scss'

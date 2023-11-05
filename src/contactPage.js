@@ -1,2 +1,2 @@
-import "./form";
-import "./styles/contact.scss";
+import './form'
+import './styles/contact.scss'

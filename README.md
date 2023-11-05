@@ -112,3 +112,7 @@ El paquete mini-css-extract-plugin es una extensión de Webpack que se utiliza p
 npm install --save-dev css-minimizer-webpack-plugin
 El paquete css-minimizer-webpack-plugin es una herramienta útil para minimizar y comprimir archivos CSS en tu proyecto de Webpack. Esto puede ayudar a reducir el tamaño de los archivos CSS y, por lo tanto, mejorar el rendimiento de tu aplicación web al reducir los tiempos de carga de la página.
 ```
+```
+npm init @eslint/config 
+El comando npx eslint --init te guiará a través de un proceso interactivo para configurar ESLint en tu proyecto. Puedes elegir opciones como el formato de archivo de configuración (por ejemplo, JavaScript o JSON), si deseas usar un estilo de guía de estilos predefinido, qué entorno de JavaScript estás utilizando y más.
+```
